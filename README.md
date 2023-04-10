@@ -4,13 +4,14 @@ Building an interactive multi-page dashboard app to visualize COVID-19 vaccinati
 
 ## Data 
 
-Obtained from Our World in Data COVID-19 GitHub repository
-More info about the data:[](https://github.com/owid/covid-19-data/blob/master/public/data/README.md)
+Obtained from Our World in Data COVID-19 GitHub repository.
+
+More info about the data can be found [here](https://github.com/owid/covid-19-data/blob/master/public/data/README.md).
 
 ## To run the app 
 
 1. Download `Vaccine dashboard` folder and open with PyCharm
-2. Install libraries below to your environment
+2. Install and import libraries below to your environment
 4. Click on the generated URL to run the app on the browser
 
 ```
