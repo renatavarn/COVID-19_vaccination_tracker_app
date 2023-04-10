@@ -1,27 +1,21 @@
 # Multi-page_COVID-19_vaccination_dashboard_app
 
-Building an interactive multi-page dashboard app to visualize COVID-19 vaccination data. 
+Building an interactive multi-page dashboard app to visualize COVID-19 vaccination data, specifically: 
+1. New COVID-19 cases and new vaccinations throughout the pandemic (page 1). 
+2. Top countries for each vaccine manufacturer (page 2)
+3. Market share of each vaccine manufacturer per country (page 3)
 
 ## Data 
 
-Obtained from Our World in Data COVID-19 GitHub repository.
+Obtained from Our World in Data COVID-19 GitHub repository. The data in this repository is regularly updated and every time you run the app, most recent dataset is used. 
 
 More info about the data can be found [here](https://github.com/owid/covid-19-data/blob/master/public/data/README.md).
 
 ## To run the app 
 
-1. Download `Vaccine dashboard` folder and open with PyCharm
-2. Install and import libraries below to your environment
+1. Download `Vaccine dashboard` folder and open it with Python IDE
+2. Install and import required libraries to your environment
 4. Click on the generated URL to run the app on the browser
-
-```
-import dash
-from dash import dcc, html, callback, Output, Input
-import dash_bootstrap_components as dbc
-import pandas as pd
-import plotly.graph_objects as go
-from plotly.subplots import make_subplots
-```
 
 Check out the `notebook.ipynb` file to see how the graphs for the dashboard were created! 
 
@@ -37,6 +31,6 @@ Check out the `notebook.ipynb` file to see how the graphs for the dashboard were
 ![](manufacturers_by_country.gif)
 
 
-## Bonus graph 
-Illustrates how higher income countries had earilier access and faster immunization rates compared to lower income countries 
+## Bonus bubble plot 
+Illustrates how higher income countries had earlier access and faster immunization rates compared to lower income countries 
 ![](vaccination_gdp.gif)
