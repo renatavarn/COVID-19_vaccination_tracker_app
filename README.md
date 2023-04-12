@@ -7,7 +7,7 @@ Building an interactive multi-page dashboard app to visualize COVID-19 vaccinati
 
 ## Data 
 
-Obtained from Our World in Data COVID-19 GitHub repository. The data in this repository is regularly updated and every time you run the app, most recent dataset is used. 
+Obtained from Our World in Data COVID-19 GitHub repository. The data in this repository is regularly updated and every time you run the app, the most recent dataset is used. 
 
 More info about the data can be found [here](https://github.com/owid/covid-19-data/blob/master/public/data/README.md).
 
