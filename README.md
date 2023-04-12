@@ -1,4 +1,4 @@
-# Multi-page_COVID-19_vaccination_dashboard_app
+# COVID-19 vaccination tracker
 
 Building an interactive multi-page dashboard app to visualize COVID-19 vaccination data, specifically: 
 1. New COVID-19 cases and new vaccinations throughout the pandemic (page 1). 
